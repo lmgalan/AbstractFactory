@@ -9,7 +9,7 @@ import factory.FactoryProducer;
 public class Main {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
-		AbstractFactory abstractFactory = FactoryProducer.getFactory("A");
+		AbstractFactory abstractFactory = FactoryProducer.getFactory("B");
 		Cliente cliente = new Cliente(abstractFactory);
 		System.out.println(cliente);
 		
