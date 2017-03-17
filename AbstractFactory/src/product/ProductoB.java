@@ -4,7 +4,7 @@ public class ProductoB implements Producto{
 
 	@Override
 	public String getName() {
-		return "ProductoB";
+		return "ProductoB_modificado_nosubirá";
 	}
 
 }
